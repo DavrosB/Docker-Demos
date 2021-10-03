@@ -1,2 +1,2 @@
-FROM nginx:latest
+FROM docker2021repos/nginx:latest
 RUN printf "My Custom NGINX Image\n" > /usr/share/nginx/html/index.html
